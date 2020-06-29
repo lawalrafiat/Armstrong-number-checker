@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: palevioletred;
+    text-align: center;
+}
+.container form{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form label{
+    font-size: 1.3rem;
+}
+
+.container form input{
+    margin: 1rem;
+    width: 25%;
+    height: 7%;
+    border: none;
+    border-radius: 10%;
+}
+
+.container form button{
+    width: 20%;
+    height: 7%;
+    background-color: rgb(143, 253, 253);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius:40% ;
+    border: none;
+}
+
+.container form button:hover{
+    background-color: #f4f4f4;
+}
+
+.result{
+    margin: auto;
+    width: 20%;
+    height: 10%;
+    background-color: #f4f4f4;
+    border: 2px solid black;
+}
+
+
+
+
